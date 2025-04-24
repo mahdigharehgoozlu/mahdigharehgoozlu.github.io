@@ -1,0 +1,267 @@
+@font-face {
+    font-family: ubunto;
+    src: url('src/fonts/Ubuntu-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: ubunto;
+    vertical-align: top;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 9;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-title {
+    font-size: 4em;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.top-container,
+.middle-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-left {
+    display: inline-block;
+    width: 40%;
+    margin: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.top-right {
+    display: inline-block;
+    width: 40%;
+    margin: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.top-left img,
+.top-right img {
+    margin-bottom: 50px;
+}
+
+.top-left .slogan,
+.top-right .slogan {
+    margin: 20px 0 0;
+    font-size: 40px;
+}
+
+#campare {
+    background-color: #fafafa;
+    padding: 50px;
+}
+
+.middle-left,
+.middle-center,
+.middle-right {
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    text-emphasis: center;
+    vertical-align: top;
+}
+
+.middle-left img#mac1 {
+    margin-bottom: 8.6px;
+}
+
+.middle-right img#mac3 {
+    margin-bottom: -3.5px;
+}
+
+.color-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 25px 1px;
+    display: inline-block;
+}
+
+.color-circle1 {
+    background-color: #abaeb3;
+}
+
+.color-circle2 {
+    background-color: #e2e3e4;
+}
+
+.campare-item:first-child {
+    margin-top: 40px;
+}
+
+.campare-item {
+    margin-bottom: 50px;
+}
+
+.middle-left #last-item {
+    margin-bottom: 43.5px;
+}
+
+.botton-container {
+    width: 96%;
+    margin: 1% auto;
+    text-align: center;
+}
+
+.botton-left,
+.botton-right {
+    width: 47%;
+    margin: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.botton-item-box {
+    background-color: #f2f2f2;
+    height: 610px;
+}
+
+.botton-item-box .botton-item-text {
+    padding: 10%;
+}
+
+.botton-item-box .botton-item-text h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.botton-item-box .botton-item-text h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.botton-item-box-image {
+    position: relative;
+    margin-top: -10px;
+}
+
+.botton-item-text-absolute {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.botton-item-text-absolute h2 {
+    color: #fff;
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+.botton-item-text-absolute p {
+    color: #fff;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:768px) {
+
+    nav ul li {
+        max-width: 65px;
+        font-size: 14px;
+    }
+
+    nav ul li:first-child {
+        width: 50px;
+    }
+
+    nav ul li:nth-child(2) {
+        width: 45px;
+    }
+
+    .main-title {
+        font-size: 2em;
+    }
+
+    .top-container,
+    .middle-container {
+        width: 100%;
+    }
+
+    .top-right,
+    .top-left {
+        width: 90%;
+        margin: 0 10px 30px;
+    }
+
+    .top-left .slogan,
+    .top-right .slogan {
+        font-size: 30px;
+    }
+
+    .middle-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .middle-left,
+    .middle-center,
+    .middle-right {
+        width: 92%;
+        display: block;
+        text-align: center;
+    }
+
+    #campare {
+        padding: 20px;
+    }
+
+    .botton-left,
+    .botton-right {
+        width: 98%;
+        display: block;
+    }
+
+    .botton-item-box {
+        height: 478px;
+        margin: 15px 0;
+    }
+
+    .botton-item-box-image {
+        margin: 15px 0;
+    }
+
+    .botton-item-text-absolute {
+        top: 34%;
+    }
+
+    .botton-item-text-absolute h2 {
+        font-size: 40px;
+    }
+}
